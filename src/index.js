@@ -4,12 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+// import store from "./store/Recipe"import Redux1 from "./store/Red1"
+
+window.document.body.style.backgroundColor = "gray"
+window.document.title = 'app'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+root.render([
+
+
+  < App />,
+]
+
 );
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
